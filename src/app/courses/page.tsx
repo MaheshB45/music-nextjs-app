@@ -7,11 +7,8 @@ import courseData from "@/data/music_courses.json";
 interface Course {
   id: number;
   title: string;
-  slug: string;
   description: string;
-  price: number;
-  instructor: string;
-  isFeatured: boolean;
+  image: string;
 }
 
 function page() {
